@@ -41,3 +41,4 @@ gem 'capistrano-rvm',   group: :development
 # Use debugger
 gem 'debugger', group: [:development, :test]
 
+gem 'tinymce-rails'
