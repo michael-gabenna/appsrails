@@ -5,7 +5,7 @@ script:
 - bundle exec rake test
 env:
   global:
-    secure: excZd9E2rW56Q1i4UUklAvQvlO5P253bObG2Tgfw/q+syA6PV92I5YLrb6fos81ddBZuaw35CrL53N5DY2+oqvz1VmqVm/ZFBKKMW9rIuFOHRTlD2rZV20ag92sgcE8qDgl6A4YUs1g4anMO2n14qtu6IBtbTC9yEfjRk/2tNAI=
+  - secure: aMHJ4bzJs9E3gcjNdqgghUHcp8fAAM44VoJ1CFkQfWAHKY/EmTXMWtvl0/G/YhIPJxIN79kPymBCiKYyZd7J9sfDA72m4dcgbBxLabhBebwyOl6Ptx01qDLxVPNtO2CwyjpMm2/ZuFShtOPl0ZBzG9w7HpyEhewDVLcpZDL+OdI=
 after_success:
-  - "openssl aes-256-cbc -k '$DEPLOY_KEY' -in config/deploy_id_rsa_enc_travis -d -a -out config/deploy_id_rsa"
+  - "openssl aes-256-cbc -k '$DEPLOY_KEY' -in config/deploy_id_rsa_enc_travis.enc -out config/deploy_id_rsa -d"
   - "[[ $TRAVIS_BRANCH = 'master' ]] && bundle exec cap production deploy"
