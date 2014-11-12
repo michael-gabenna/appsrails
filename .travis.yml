@@ -8,4 +8,4 @@ env:
   - secure: aMHJ4bzJs9E3gcjNdqgghUHcp8fAAM44VoJ1CFkQfWAHKY/EmTXMWtvl0/G/YhIPJxIN79kPymBCiKYyZd7J9sfDA72m4dcgbBxLabhBebwyOl6Ptx01qDLxVPNtO2CwyjpMm2/ZuFShtOPl0ZBzG9w7HpyEhewDVLcpZDL+OdI=
 after_success:
   - openssl aes-256-cbc -k "$DEPLOY_KEY" -in config/deploy_id_rsa_enc_travis.enc -out config/deploy_id_rsa -d
-  - [[ $TRAVIS_BRANCH = 'master' ]] && bundle exec cap production deploy
+  - "[[ $TRAVIS_BRANCH = 'master' ]] && bundle exec cap production deploy"
