@@ -1,5 +1,11 @@
 language: ruby
 rvm:
-  - 2.1.1
+- 2.1.1
 script:
-  - bundle exec rake test
+- bundle exec rake test
+env:
+  global:
+    secure: l1kMe6CNKewLAjDdi0avFgHEzHyFpYH+Z1hqehz307xvAO0a4tSwTtjB3zMi8elgvyqSGwraW8I/p4PNC9luHmnLssRz8dbB2b2KDM2HVPtT/7oQVInZrR6zQmr8clf3MFpbktgbxHFEkeVHQrryHYtrYZHzxmAinslYxq3sppo=
+after_success:
+  - "openssl aes-256-cbc -k '$DEPLOY_KEY' -in config/deploy_id_rsa_enc_travis -d -a -out config/deploy_id_rsa"
+  - "bundle exec cap deploy"
