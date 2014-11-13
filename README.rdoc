@@ -2,6 +2,9 @@
 
 {<img src="https://travis-ci.org/diegobiavati/appsrails.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/diegobiavati/appsrails]
 
+{<img src="https://coveralls.io/repos/diegobiavati/appsrails/badge.png" alt="Coverage Status" />}[https://coveralls.io/r/diegobiavati/appsrails]
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
