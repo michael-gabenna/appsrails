@@ -1,0 +1,100 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/home/vagrant/appsrails/app/models/post.rb": [
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/app/helpers/posts_helper.rb": [
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/test/helpers/welcome_helper_test.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/test/models/post_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/vagrant/appsrails/test/controllers/posts_controller_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/home/vagrant/appsrails/test/controllers/welcome_controller_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1415923719
+  }
+}
