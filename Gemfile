@@ -52,3 +52,6 @@ gem 'pry-rails'
 group :development, :test do
   gem 'rspec-rails'
 end
+
+gem 'coveralls', require: false
+gem "codeclimate-test-reporter", group: :test, require: nil

@@ -3,6 +3,9 @@ rvm:
 - 2.1.1
 script:
 - bundle exec rake test
+addons:
+  code_climate:
+    repo_token: 63ff31d5a3ca6f78fc4e1643bb6d7550a7eb9135e25412362bf8d14b572ab993
 env:
   global:
   - secure: aMHJ4bzJs9E3gcjNdqgghUHcp8fAAM44VoJ1CFkQfWAHKY/EmTXMWtvl0/G/YhIPJxIN79kPymBCiKYyZd7J9sfDA72m4dcgbBxLabhBebwyOl6Ptx01qDLxVPNtO2CwyjpMm2/ZuFShtOPl0ZBzG9w7HpyEhewDVLcpZDL+OdI=
