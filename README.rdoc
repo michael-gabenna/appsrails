@@ -1,6 +1,6 @@
 == README
 
-{<img src="https://travis-ci.org/diegobiavati/appsrails.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/diegobiavati/appsrails] {<img src="https://coveralls.io/repos/diegobiavati/appsrails/badge.png?branch=master" alt="Coverage Status" />}[https://coveralls.io/r/diegobiavati/appsrails?branch=master] {<img src="https://codeclimate.com/github/diegobiavati/appsrails/badges/gpa.svg" />}[https://codeclimate.com/github/diegobiavati/appsrails] {<img src="https://codeclimate.com/github/diegobiavati/appsrails/badges/coverage.svg" />}[https://codeclimate.com/github/diegobiavati/appsrails]
+{<img src="https://travis-ci.org/diegobiavati/appsrails.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/diegobiavati/appsrails] {<img src="https://coveralls.io/repos/diegobiavati/appsrails/badge.png?branch=master" alt="Coverage Status" />}[https://coveralls.io/r/diegobiavati/appsrails?branch=master] {<img src="https://codeclimate.com/github/diegobiavati/appsrails/badges/gpa.svg" />}[https://codeclimate.com/github/diegobiavati/appsrails] {<img src="https://codeclimate.com/github/diegobiavati/appsrails/badges/coverage.svg" />}[https://codeclimate.com/github/diegobiavati/appsrails] 
 
 
 This README would normally document whatever steps are necessary to get the
