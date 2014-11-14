@@ -50,3 +50,4 @@ gem "twitter-bootstrap-rails"
 gem 'pry-rails'
 
 gem 'coveralls', require: false
+gem "codeclimate-test-reporter", group: :test, require: nil
