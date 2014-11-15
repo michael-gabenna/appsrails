@@ -57,5 +57,9 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+group :development do
+    gem "better_errors"
+end
+
 gem 'coveralls', require: false
 gem "codeclimate-test-reporter", group: :test, require: nil
