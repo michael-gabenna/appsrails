@@ -41,14 +41,18 @@ gem 'capistrano-rvm',   group: :development
 # Use debugger
 gem 'debugger', group: [:development, :test]
 
+# Use tinymce editor
 gem 'tinymce-rails'
 
+# Use Bootstrap Twitter layout
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "twitter-bootstrap-rails"
 
+# Use pry in rails console
 gem 'pry-rails'
 
+# Use RSpec in development and tests
 group :development, :test do
   gem 'rspec-rails'
 end
