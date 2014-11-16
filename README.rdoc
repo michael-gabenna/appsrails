@@ -24,7 +24,8 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Development
+1. Run + $ TRUSTED_IP=XX.XX.XX.XX rails s+
 
 
 Please feel free to use a different markup language if you do not plan to run
