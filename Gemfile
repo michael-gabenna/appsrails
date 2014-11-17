@@ -32,7 +32,7 @@ gem 'spring',        group: :development
 gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-gem 'unicorn'
+# gem 'unicorn'
 
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
@@ -50,7 +50,12 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem "twitter-bootstrap-rails"
 
 # Use pry in rails console
-gem 'pry-rails'
+# gem 'pry-rails'
+
+# Use gem jazz_hands in rails c
+group :development, :test do
+    gem 'jazz_hands'
+end
 
 # Use RSpec in development and tests
 group :development, :test do
@@ -58,7 +63,8 @@ group :development, :test do
 end
 
 group :development do
-    gem "better_errors"
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 gem 'coveralls', require: false
