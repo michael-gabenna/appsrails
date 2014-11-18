@@ -1,25 +1,38 @@
-<%= form_for(@commit) do |f| %>
-  <% if @commit.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@commit.errors.count, "error") %> prohibited this commit from being saved:</h2>
+<%= form_for @commit, :html => { :class => "form-horizontal commit" } do |f| %>
 
-      <ul>
-      <% @commit.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
+    <% if @commit.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@commit.errors.count, "error") %> prohibited this commit from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @commit.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :mensage %><br>
-    <%= f.text_area :mensage %>
+  <div class="control-group">
+    <%= f.label :mensage, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :mensage, :class => 'form-control' %>
+    </div>
+    <%= error_span(@commit[:mensage]) %>
   </div>
-  <div class="field">
-    <%= f.label :post_id %><br>
-    <%= f.text_field :post_id %>
+  <div class="control-group">
+    <%= f.label :post_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :post_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@commit[:post_id]) %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+
+
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+            commits_path, :class => 'btn btn-default' %>
+
 <% end %>
