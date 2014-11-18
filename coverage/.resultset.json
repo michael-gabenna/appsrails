@@ -19,5 +19,103 @@
       ]
     },
     "timestamp": 1415926075
+  },
+  "RSpec": {
+    "coverage": {
+      "/home/action/workspace/appsrails/app/models/post.rb": [
+        1,
+        null
+      ],
+      "/home/action/workspace/appsrails/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/action/workspace/appsrails/app/helpers/posts_helper.rb": [
+        1,
+        null
+      ],
+      "/home/action/workspace/appsrails/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ],
+      "/home/action/workspace/appsrails/test/helpers/welcome_helper_test.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/home/action/workspace/appsrails/test/models/post_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/action/workspace/appsrails/test/controllers/posts_controller_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/home/action/workspace/appsrails/test/controllers/welcome_controller_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1416304127
   }
 }
