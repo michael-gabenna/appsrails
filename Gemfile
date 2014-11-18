@@ -58,9 +58,9 @@ group :development, :test do
 end
 
 # Use RSpec in development and tests
-group :development, :test do
-  gem 'rspec-rails'
-end
+# group :development, :test do
+#   gem 'rspec-rails'
+# end
 
 group :development do
   gem "better_errors"
