@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :commits
+
   get 'welcome/index'
 
   resources :posts

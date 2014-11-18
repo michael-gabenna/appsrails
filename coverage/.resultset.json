@@ -1,24 +1,34 @@
 {
   "MiniTest": {
     "coverage": {
-      "/home/action/workspace/appsrails/app/models/post.rb": [
+      "/home/vagrant/appsrails/app/models/commit.rb": [
+        1,
         1,
         null
       ],
-      "/home/action/workspace/appsrails/app/helpers/application_helper.rb": [
+      "/home/vagrant/appsrails/app/models/post.rb": [
+        1,
         1,
         null
       ],
-      "/home/action/workspace/appsrails/app/helpers/posts_helper.rb": [
+      "/home/vagrant/appsrails/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/action/workspace/appsrails/app/helpers/welcome_helper.rb": [
+      "/home/vagrant/appsrails/app/helpers/commits_helper.rb": [
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/app/helpers/posts_helper.rb": [
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/app/helpers/welcome_helper.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1416307129
+    "timestamp": 1416323434
   },
   "RSpec": {
     "coverage": {
