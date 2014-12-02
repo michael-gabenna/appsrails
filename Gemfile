@@ -69,3 +69,5 @@ end
 
 gem 'coveralls', require: false
 gem "codeclimate-test-reporter", group: :test, require: nil
+
+gem 'google-analytics-rails'
