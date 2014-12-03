@@ -1,27 +1,27 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    actionmailer (4.1.7)
-      actionpack (= 4.1.7)
-      actionview (= 4.1.7)
+    actionmailer (4.1.8)
+      actionpack (= 4.1.8)
+      actionview (= 4.1.8)
       mail (~> 2.5, >= 2.5.4)
-    actionpack (4.1.7)
-      actionview (= 4.1.7)
-      activesupport (= 4.1.7)
+    actionpack (4.1.8)
+      actionview (= 4.1.8)
+      activesupport (= 4.1.8)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
-    actionview (4.1.7)
-      activesupport (= 4.1.7)
+    actionview (4.1.8)
+      activesupport (= 4.1.8)
       builder (~> 3.1)
       erubis (~> 2.7.0)
-    activemodel (4.1.7)
-      activesupport (= 4.1.7)
+    activemodel (4.1.8)
+      activesupport (= 4.1.8)
       builder (~> 3.1)
-    activerecord (4.1.7)
-      activemodel (= 4.1.7)
-      activesupport (= 4.1.7)
+    activerecord (4.1.8)
+      activemodel (= 4.1.8)
+      activesupport (= 4.1.8)
       arel (~> 5.0.0)
-    activesupport (4.1.7)
+    activesupport (4.1.8)
       i18n (~> 0.6, >= 0.6.9)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -55,7 +55,7 @@ GEM
     codeclimate-test-reporter (0.4.2)
       simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.0)
-    coffee-rails (4.0.1)
+    coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
     coffee-script (2.3.0)
@@ -67,12 +67,12 @@ GEM
     commonjs (0.2.7)
     coolline (0.5.0)
       unicode_utils (~> 1.4)
-    coveralls (0.7.1)
+    coveralls (0.7.2)
       multi_json (~> 1.3)
-      rest-client
+      rest-client (= 1.6.7)
       simplecov (>= 0.7)
-      term-ansicolor
-      thor
+      term-ansicolor (= 1.2.2)
+      thor (= 0.18.1)
     debug_inspector (0.0.2)
     debugger (1.6.8)
       columnize (>= 0.3.1)
@@ -127,7 +127,6 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
-    netrc (0.9.0)
     pg (0.17.1)
     posix-spawn (0.3.9)
     pry (0.9.12.6)
@@ -155,28 +154,27 @@ GEM
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
-    rails (4.1.7)
-      actionmailer (= 4.1.7)
-      actionpack (= 4.1.7)
-      actionview (= 4.1.7)
-      activemodel (= 4.1.7)
-      activerecord (= 4.1.7)
-      activesupport (= 4.1.7)
+    rails (4.1.8)
+      actionmailer (= 4.1.8)
+      actionpack (= 4.1.8)
+      actionview (= 4.1.8)
+      activemodel (= 4.1.8)
+      activerecord (= 4.1.8)
+      activesupport (= 4.1.8)
       bundler (>= 1.3.0, < 2.0)
-      railties (= 4.1.7)
+      railties (= 4.1.8)
       sprockets-rails (~> 2.0)
-    railties (4.1.7)
-      actionpack (= 4.1.7)
-      activesupport (= 4.1.7)
+    railties (4.1.8)
+      actionpack (= 4.1.8)
+      activesupport (= 4.1.8)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
     rdoc (4.1.2)
       json (~> 1.4)
     ref (1.0.5)
-    rest-client (1.7.2)
-      mime-types (>= 1.16, < 3.0)
-      netrc (~> 0.7)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rspec-core (3.1.7)
       rspec-support (~> 3.1.0)
     rspec-expectations (3.1.2)
@@ -223,15 +221,15 @@ GEM
       colorize
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
-    term-ansicolor (1.3.0)
-      tins (~> 1.0)
+    term-ansicolor (1.2.2)
+      tins (~> 0.8)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
-    thor (0.19.1)
+    thor (0.18.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
-    tins (1.3.3)
+    tins (0.13.2)
     tinymce-rails (4.1.6)
       railties (>= 3.1.1)
     turbolinks (2.5.2)
@@ -253,29 +251,29 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt (~> 3.1.7)
+  bcrypt
   better_errors
   binding_of_caller
   capistrano-rails
   capistrano-rvm
   codeclimate-test-reporter
-  coffee-rails (~> 4.0.0)
+  coffee-rails
   coveralls
   debugger
   google-analytics-rails
   jazz_hands
-  jbuilder (~> 2.0)
+  jbuilder
   jquery-rails
   less-rails
   pg
-  rails (= 4.1.7)
+  rails
   rspec-rails
-  sass-rails (~> 4.0.3)
-  sdoc (~> 0.4.0)
+  sass-rails
+  sdoc
   spring
   sqlite3
   therubyracer
   tinymce-rails
   turbolinks
   twitter-bootstrap-rails
-  uglifier (>= 1.3.0)
+  uglifier
