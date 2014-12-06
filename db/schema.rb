@@ -11,16 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141118150435) do
-
-  create_table "commits", force: true do |t|
-    t.text     "mensage"
-    t.integer  "post_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "commits", ["post_id"], name: "index_commits_on_post_id"
+ActiveRecord::Schema.define(version: 20141110223605) do
 
   create_table "posts", force: true do |t|
     t.string   "title"
