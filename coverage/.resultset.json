@@ -32,7 +32,24 @@
   },
   "RSpec": {
     "coverage": {
+      "/home/vagrant/appsrails/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/app/helpers/posts_helper.rb": [
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ],
+      "/home/vagrant/appsrails/app/models/mensage.rb": [
+        1,
+        1,
+        null
+      ]
     },
-    "timestamp": 1417862211
+    "timestamp": 1417966550
   }
 }
