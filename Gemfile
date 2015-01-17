@@ -71,3 +71,5 @@ gem 'coveralls', require: false
 gem "codeclimate-test-reporter", group: :test, require: nil
 
 gem 'google-analytics-rails'
+
+gem 'rails_best_practices'
