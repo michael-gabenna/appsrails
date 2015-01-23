@@ -75,3 +75,5 @@ gem 'google-analytics-rails'
 gem 'rails_best_practices'
 
 gem 'devise'
+
+gem 'cancancan'
