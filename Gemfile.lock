@@ -46,6 +46,7 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
+    cancancan (1.10.1)
     capistrano (3.3.5)
       capistrano-stats (~> 1.1.0)
       i18n
@@ -299,6 +300,7 @@ DEPENDENCIES
   bcrypt
   better_errors
   binding_of_caller
+  cancancan
   capistrano-rails
   capistrano-rvm
   codeclimate-test-reporter

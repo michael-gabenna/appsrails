@@ -65,15 +65,16 @@ end
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
+  gem 'rails_best_practices'
 end
 
+# Gems for metrics 
 gem 'coveralls', require: false
 gem "codeclimate-test-reporter", group: :test, require: nil
-
 gem 'google-analytics-rails'
 
-gem 'rails_best_practices'
+# Add gem Devise for authentication
+#gem 'devise'
 
-gem 'devise'
-
+# Add gem Cancancan for access control
 gem 'cancancan'
