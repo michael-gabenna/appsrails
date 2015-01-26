@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20141207151644) do
 
-  create_table "mensages", force: true do |t|
+  create_table "mensages", force: :cascade do |t|
     t.text     "mensage"
     t.integer  "post_id"
     t.datetime "created_at"
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20141207151644) do
 
   add_index "mensages", ["post_id"], name: "index_mensages_on_post_id"
 
-  create_table "posts", force: true do |t|
+  create_table "posts", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
     t.datetime "created_at"
