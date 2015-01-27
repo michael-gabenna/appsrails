@@ -74,7 +74,7 @@ gem "codeclimate-test-reporter", group: :test, require: nil
 gem 'google-analytics-rails'
 
 # Add gem Devise for authentication
-#gem 'devise'
+gem 'devise'
 
 # Add gem Cancancan for access control
 gem 'cancancan'
