@@ -17,16 +17,16 @@
 
   <div class="control-group">
     <%= f.label :post, :class => 'control-label' %>
-    
+
     <%= f.text_area :post, class: 'tinymce', rows: 40, cols: 120 %>
     <%= tinymce %>
-    
+
     <%= error_span(@post[:post]) %>
   </div>
 
 
   <%= f.submit nil, :class => 'btn btn-primary' %>
   <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-            posts_path, :class => 'btn btn-default' %>
+    posts_path, :class => 'btn btn-default' %>
 
 <% end %>

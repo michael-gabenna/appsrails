@@ -6,7 +6,7 @@ gem 'rails'
 # Use sqlite3 as the database for Active Record in development
 gem 'sqlite3', group: :development
 # Use postgresql as the database for Active Record in production
-gem 'pg', group: :production 
+gem 'pg', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -68,7 +68,7 @@ group :development do
   gem 'rails_best_practices'
 end
 
-# Gems for metrics 
+# Gems for metrics
 gem 'coveralls', require: false
 gem "codeclimate-test-reporter", group: :test, require: nil
 gem 'google-analytics-rails'

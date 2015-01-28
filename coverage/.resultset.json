@@ -38,10 +38,16 @@
       ],
       "/home/vagrant/appsrails/app/helpers/posts_helper.rb": [
         1,
+        1,
+        0,
+        null,
         null
       ],
       "/home/vagrant/appsrails/app/helpers/welcome_helper.rb": [
         1,
+        1,
+        0,
+        null,
         null
       ],
       "/home/vagrant/appsrails/app/controllers/posts_controller.rb": [
@@ -132,6 +138,6 @@
         null
       ]
     },
-    "timestamp": 1422402372
+    "timestamp": 1422461942
   }
 }
