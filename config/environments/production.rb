@@ -77,4 +77,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   GA.tracker = "UA-11477089-13"
+
+  config.action_mailer.default_url_options = { host: 'appsrails.noip.me' }
 end

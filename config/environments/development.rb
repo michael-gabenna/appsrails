@@ -37,4 +37,5 @@ Rails.application.configure do
 
   # Config better_erros for use in development https://github.com/charliesome/better_errors
   BetterErrors::Middleware.allow_ip! ENV['TRUSTED_IP'] if ENV['TRUSTED_IP']
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
