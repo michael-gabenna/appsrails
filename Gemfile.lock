@@ -100,6 +100,7 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    devise-bootstrap-views (0.0.4)
     diff-lcs (1.2.5)
     diffy (3.0.7)
     docile (1.1.5)
@@ -320,6 +321,7 @@ DEPENDENCIES
   coveralls
   debugger
   devise
+  devise-bootstrap-views
   google-analytics-rails
   jazz_hands
   jbuilder

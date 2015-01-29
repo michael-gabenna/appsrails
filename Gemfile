@@ -75,6 +75,8 @@ gem 'google-analytics-rails'
 
 # Add gem Devise for authentication
 gem 'devise'
+# Add gem devise-bootstrap-views for layout in login
+gem 'devise-bootstrap-views'
 
 # Add gem Cancancan for access control
 gem 'cancancan'
