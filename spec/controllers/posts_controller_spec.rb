@@ -54,6 +54,9 @@ RSpec.describe PostsController, :type => :controller do
 
   describe "GET new" do
     it "assigns a new post as @post" do
+      user = double('user')
+      allow(request.env['warden']).to receive(:authenticate!) {user}
+      allow(controller).to receive(:current_user) { user }
       get :new, {}, valid_session
       expect(assigns(:post)).to be_a_new(Post)
     end
