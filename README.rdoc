@@ -25,7 +25,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * Development
-1. Run <code>$ TRUSTED_IP=XX.XX.XX.XX rails s</code>
+1. Run <code>$ TRUSTED_IP=XX.XX.XX.XX rails s -b 0.0.0.0</code>
 
 
 Please feel free to use a different markup language if you do not plan to run
