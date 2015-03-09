@@ -21,3 +21,6 @@
 
 en:
   hello: "Hello world"
+  mensages:
+    welcome: "Welcome %{current_user}!"
+    welcome_user: "Welcome %{current_user}!"
